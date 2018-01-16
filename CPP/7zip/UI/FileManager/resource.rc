@@ -1,0 +1,981 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 英语(美国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+1 VERSIONINFO
+ FILEVERSION 18,0,0,0
+ PRODUCTVERSION 18,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "Igor Pavlov"
+            VALUE "FileDescription", "7-Zip File Manager"
+            VALUE "FileVersion", "18.00 beta"
+            VALUE "InternalName", "7zFM"
+            VALUE "LegalCopyright", "Copyright (c) 1999-2018 Igor Pavlov"
+            VALUE "OriginalFilename", "7zFM.exe"
+            VALUE "ProductName", "7-Zip"
+            VALUE "ProductVersion", "18.00 beta"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+72 ACCELERATORS
+BEGIN
+    VK_F1,          960,                    VIRTKEY, NOINVERT
+    VK_F12,         736,                    VIRTKEY, ALT, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+71 MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Open\tEnter",                540
+        MENUITEM "Open &Inside\tCtrl+PgDn",     541
+        MENUITEM "Open Inside *",               590
+        MENUITEM "Open Inside #",               591
+        MENUITEM "Open O&utside\tShift+Enter",  542
+        MENUITEM "&View\tF3",                   543
+        MENUITEM "&Edit\tF4",                   544
+        MENUITEM SEPARATOR
+        MENUITEM "Rena&me\tF2",                 545
+        MENUITEM "&Copy To...\tF5",             546
+        MENUITEM "&Move To...\tF6",             547
+        MENUITEM "&Delete\tDel",                548
+        MENUITEM SEPARATOR
+        MENUITEM "&Split file...",              549
+        MENUITEM "Com&bine files...",           550
+        MENUITEM SEPARATOR
+        MENUITEM "P&roperties\tAlt+Enter",      551
+        MENUITEM "Comme&nt...\tCtrl+Z",         552
+        POPUP "CRC"
+        BEGIN
+            MENUITEM "CRC-32",                      102
+            MENUITEM "CRC-64",                      103
+            MENUITEM "SHA-1",                       104
+            MENUITEM "SHA-256",                     105
+            MENUITEM "*",                           101
+        END
+        MENUITEM "Di&ff",                       554
+        MENUITEM SEPARATOR
+        MENUITEM "Create Folder\tF7",           555
+        MENUITEM "Create File\tCtrl+N",         556
+        MENUITEM SEPARATOR
+        MENUITEM "&Link...",                    558
+        MENUITEM "&Alternate streams",          559
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit\tAlt+F4",               8
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "Select &All\tShift+[Grey +]", 600
+        MENUITEM "Deselect All\tShift+[Grey -]", 601
+        MENUITEM "&Invert Selection\tGrey *",   602
+        MENUITEM "Select...\tGrey +",           603
+        MENUITEM "Deselect...\tGrey -",         604
+        MENUITEM "Select by Type\tAlt+[Grey+]", 605
+        MENUITEM "Deselect by Type\tAlt+[Grey -]", 606
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "Lar&ge Icons\tCtrl+1",        700
+        MENUITEM "S&mall Icons\tCtrl+2",        701
+        MENUITEM "&List\tCtrl+3",               702
+        MENUITEM "&Details\tCtrl+4",            703, CHECKED
+        MENUITEM SEPARATOR
+        MENUITEM "Name\tCtrl+F3",               710
+        MENUITEM "Type\tCtrl+F4",               711
+        MENUITEM "Date\tCtrl+F5",               712
+        MENUITEM "Size\tCtrl+F6",               713
+        MENUITEM "Unsorted\tCtrl+F7",           730
+        MENUITEM SEPARATOR
+        MENUITEM "Flat View",                   731
+        MENUITEM "&2 Panels\tF9",               732
+        POPUP "2017"
+        BEGIN
+            MENUITEM "Time",                        761
+        END
+        POPUP "Toolbars"
+        BEGIN
+            MENUITEM "Archive Toolbar",             750
+            MENUITEM "Standard Toolbar",            751
+            MENUITEM SEPARATOR
+            MENUITEM "Large Buttons",               752
+            MENUITEM "Show Buttons Text",           753
+        END
+        MENUITEM "Open Root Folder\t\\",        734
+        MENUITEM "Up One Level\tBackspace",     735
+        MENUITEM "Folders History...\tAlt+F12", 736
+        MENUITEM "&Refresh\tCtrl+R",            737
+        MENUITEM "Auto Refresh",                738
+    END
+    POPUP "F&avorites"
+    BEGIN
+        POPUP "&Add folder to Favorites as"
+        BEGIN
+            MENUITEM SEPARATOR
+        END
+        MENUITEM SEPARATOR
+    END
+    POPUP "&Tools"
+    BEGIN
+        MENUITEM "&Options...",                 900
+        MENUITEM SEPARATOR
+        MENUITEM "&Benchmark",                  901
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Contents...\tF1",            960
+        MENUITEM SEPARATOR
+        MENUITEM "&About 7-Zip...",             961
+        MENUITEM "2333333",                     ID_HELP_2333333
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+1                       ICON                    "../../UI/FileManager/FM.ico"
+
+100                     ICON                    "../../UI/FileManager/7zipLogo.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+100                     BITMAP                  "../../UI/FileManager/Add.bmp"
+
+101                     BITMAP                  "../../UI/FileManager/Extract.bmp"
+
+102                     BITMAP                  "../../UI/FileManager/Test.bmp"
+
+103                     BITMAP                  "../../UI/FileManager/Copy.bmp"
+
+104                     BITMAP                  "../../UI/FileManager/Move.bmp"
+
+105                     BITMAP                  "../../UI/FileManager/Delete.bmp"
+
+106                     BITMAP                  "../../UI/FileManager/Info.bmp"
+
+150                     BITMAP                  "../../UI/FileManager/Add2.bmp"
+
+151                     BITMAP                  "../../UI/FileManager/Extract2.bmp"
+
+152                     BITMAP                  "../../UI/FileManager/Test2.bmp"
+
+153                     BITMAP                  "../../UI/FileManager/Copy2.bmp"
+
+154                     BITMAP                  "../../UI/FileManager/Move2.bmp"
+
+155                     BITMAP                  "../../UI/FileManager/Delete2.bmp"
+
+156                     BITMAP                  "../../UI/FileManager/Info2.bmp"
+
+190                     BITMAP                  "../../UI/Explorer/MenuLogo.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+2900 DIALOG 0, 0, 160, 160
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About 7-Zip"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    DEFPUSHBUTTON   "OK",1,88,136,64,16
+    PUSHBUTTON      "www.7-zip.org",110,16,136,64,16
+    ICON            100,-1,8,8,32,32,SS_REALSIZEIMAGE
+    LTEXT           "",101,8,54,144,8
+    LTEXT           "",102,8,67,144,8
+    LTEXT           "Copyright (c) 1999-2018 Igor Pavlov",-1,8,80,144,8
+    LTEXT           "7-Zip is free software",2901,8,93,144,42
+END
+
+95 DIALOG 0, 0, 272, 336
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "7-Zip: Browse"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    EDITTEXT        102,8,268,256,14,ES_AUTOHSCROLL
+    COMBOBOX        103,8,290,256,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "OK",1,128,312,64,16
+    PUSHBUTTON      "Cancel",2,200,312,64,16
+    PUSHBUTTON      "<--",110,8,8,24,16
+    PUSHBUTTON      "+",112,40,8,24,16
+    LTEXT           "",101,72,11,236,8
+    CONTROL         "List1",100,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_SHAREIMAGELISTS | WS_BORDER | WS_TABSTOP,8,32,256,228
+END
+
+98 DIALOG 0, 0, 256, 80
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Combo"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    LTEXT           "",100,8,8,240,8
+    COMBOBOX        101,8,20,240,65,CBS_DROPDOWN | CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",1,112,56,64,16
+    PUSHBUTTON      "Cancel",2,184,56,64,16
+END
+
+96 DIALOG 0, 0, 336, 160
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Copy"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    LTEXT           "",100,8,8,320,8
+    COMBOBOX        101,8,20,292,65,CBS_DROPDOWN | CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "...",102,308,18,20,16,WS_GROUP
+    CONTROL         "",103,"Static",SS_LEFTNOWORDWRAP | SS_NOPREFIX | WS_GROUP,8,40,320,95
+    DEFPUSHBUTTON   "OK",1,192,136,64,16
+    PUSHBUTTON      "Cancel",2,264,136,64,16
+END
+
+2103 DIALOG 0, 0, 256, 96
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Editor"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    LTEXT           "&View:",543,8,8,240,8
+    EDITTEXT        100,8,20,212,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",101,228,19,20,16
+    LTEXT           "&Editor:",2104,8,40,240,8
+    EDITTEXT        102,8,52,212,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",103,228,51,20,16
+    LTEXT           "&Diff:",2105,8,72,240,8
+    EDITTEXT        104,8,84,212,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",105,228,83,20,16
+END
+
+2400 DIALOG 0, 0, 256, 116
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Folders"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    LTEXT           "&Working folder",2401,8,8,240,8
+    CONTROL         "&System temp folder",2402,"Button",BS_AUTORADIOBUTTON | WS_GROUP,8,20,240,10
+    CONTROL         "&Current",2403,"Button",BS_AUTORADIOBUTTON,8,34,240,10
+    CONTROL         "Specified:",2404,"Button",BS_AUTORADIOBUTTON,8,48,240,10
+    EDITTEXT        100,16,62,204,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",101,228,61,20,16
+    CONTROL         "Use for removable drives only",2405,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,86,240,10
+END
+
+2101 DIALOG 0, 0, 176, 116
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Language"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    LTEXT           "Language:",2102,8,8,160,8
+    COMBOBOX        100,8,20,160,80,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+7700 DIALOG 0, 0, 304, 216
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Link"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    LTEXT           "Link from:",7702,8,8,288,8
+    COMBOBOX        100,8,20,260,64,CBS_DROPDOWN | CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "...",103,276,18,20,16,WS_GROUP
+    LTEXT           "Link to:",7703,8,48,288,8
+    COMBOBOX        101,8,60,260,64,CBS_DROPDOWN | CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "...",104,276,58,20,16,WS_GROUP
+    LTEXT           "",102,8,78,288,8
+    GROUPBOX        "Link Type",7710,8,104,288,76
+    CONTROL         "Hard Link",7711,"Button",BS_AUTORADIOBUTTON | WS_GROUP,16,120,278,10
+    CONTROL         "File Symbolic Link",7712,"Button",BS_AUTORADIOBUTTON,16,134,278,10
+    CONTROL         "Directory Symbolic Link",7713,"Button",BS_AUTORADIOBUTTON,16,148,278,10
+    CONTROL         "Directory Junction",7714,"Button",BS_AUTORADIOBUTTON,16,162,278,10
+    DEFPUSHBUTTON   "Link",7701,160,192,64,16
+    PUSHBUTTON      "Cancel",2,232,192,64,16
+END
+
+99 DIALOG 0, 0, 336, 256
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "ListView"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    CONTROL         "List1",100,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_AUTOARRANGE | LVS_NOCOLUMNHEADER | WS_BORDER | WS_TABSTOP,8,8,320,216
+    DEFPUSHBUTTON   "OK",1,192,232,64,16
+    PUSHBUTTON      "Cancel",2,264,232,64,16
+END
+
+2300 DIALOG 0, 0, 256, 240
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "7-Zip"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    CONTROL         "Integrate 7-Zip to shell context menu",2301,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,8,240,10
+    CONTROL         "(32-bit)",2310,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,22,240,10
+    CONTROL         "Cascaded context menu",2302,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,36,240,10
+    CONTROL         "Icons in context menu",2304,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,50,240,10
+    CONTROL         "Eliminate duplication of root folder",3430,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,64,240,10
+    LTEXT           "Context menu items:",2303,8,78,240,8
+    CONTROL         "List",100,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_NOCOLUMNHEADER | WS_BORDER | WS_TABSTOP,8,90,240,142
+END
+
+6602 DIALOG 0, 0, 456, 176
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "7-Zip: Diagnostic messages"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    DEFPUSHBUTTON   "&Close",1,384,152,64,16
+    CONTROL         "List1",100,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,8,8,440,136
+END
+
+3500 DIALOG 0, 0, 296, 216
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Confirm File Replace"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    LTEXT           "Destination folder already contains processed file.",3501,8,7,280,8
+    LTEXT           "Would you like to replace the existing file",3502,8,28,280,8
+    ICON            "",100,8,44,24,24
+    LTEXT           "",102,40,44,248,50,SS_NOPREFIX
+    LTEXT           "with this one?",3503,8,98,280,8
+    ICON            "",101,8,114,24,24
+    LTEXT           "",103,40,114,248,50,SS_NOPREFIX
+    PUSHBUTTON      "&Yes",6,40,168,64,16
+    PUSHBUTTON      "Yes to &All",440,112,168,64,16
+    PUSHBUTTON      "A&uto Rename",3505,184,168,104,16
+    PUSHBUTTON      "&No",7,40,192,64,16
+    PUSHBUTTON      "No to A&ll",441,112,192,64,16
+    PUSHBUTTON      "&Cancel",2,224,192,64,16
+END
+
+3800 DIALOG 0, 0, 156, 88
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Enter password"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    LTEXT           "&Enter password:",3801,8,8,140,8
+    EDITTEXT        120,8,20,140,14,ES_PASSWORD | ES_AUTOHSCROLL
+    CONTROL         "&Show password",3803,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,42,140,10
+    DEFPUSHBUTTON   "OK",1,12,64,64,16
+    PUSHBUTTON      "Cancel",2,84,64,64,16
+END
+
+97 DIALOG 0, 0, 376, 204
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Progress"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    DEFPUSHBUTTON   "&Background",444,112,180,80,16
+    PUSHBUTTON      "&Pause",446,200,180,80,16
+    PUSHBUTTON      "Cancel",2,288,180,80,16
+    LTEXT           "Elapsed time:",3900,8,8,90,8
+    LTEXT           "Remaining time:",3901,8,19,90,8
+    LTEXT           "Files:",1032,8,30,90,8
+    LTEXT           "Compression ratio:",3905,8,41,90,8
+    LTEXT           "Errors:",3906,8,52,90,8
+    LTEXT           "Total size:",3902,202,8,90,8
+    LTEXT           "Speed:",3903,202,19,90,8
+    LTEXT           "Processed:",3904,202,30,90,8
+    LTEXT           "Compressed size:",1008,202,41,90,8
+    RTEXT           "",120,98,8,76,8,SS_NOPREFIX
+    RTEXT           "",121,98,19,76,8,SS_NOPREFIX
+    RTEXT           "",111,98,30,76,8,SS_NOPREFIX
+    RTEXT           "",125,98,41,76,8,SS_NOPREFIX
+    RTEXT           "",126,98,52,76,8,SS_NOPREFIX
+    RTEXT           "",122,292,8,76,8,SS_NOPREFIX
+    RTEXT           "",123,292,19,76,8,SS_NOPREFIX
+    RTEXT           "",124,292,30,76,8,SS_NOPREFIX
+    RTEXT           "",110,292,41,76,8,SS_NOPREFIX
+    LTEXT           "",103,8,64,360,8,SS_NOPREFIX
+    CONTROL         "",102,"Static",SS_LEFTNOWORDWRAP | SS_NOPREFIX,8,76,360,24
+    CONTROL         "Progress1",100,"msctls_progress32",PBS_SMOOTH | WS_BORDER,8,100,360,16
+    CONTROL         "List1",101,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_NOCOLUMNHEADER | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,8,124,360,48
+END
+
+2500 DIALOG 0, 0, 256, 136
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Settings"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    CONTROL         "Show "".."" item",2501,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,8,240,10
+    CONTROL         "Show real file &icons",2502,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,22,240,10
+    CONTROL         "&Full row select",2504,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,36,240,10
+    CONTROL         "Show &grid lines",2505,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,50,240,10
+    CONTROL         "&Single-click to open an item",2506,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,64,240,10
+    CONTROL         "&Alternative selection mode",2507,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,78,240,10
+    CONTROL         "Show system &menu",2503,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,100,240,10
+    CONTROL         "Use &large memory pages",2508,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,122,240,10
+END
+
+7300 DIALOG 0, 0, 304, 112
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Split File"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    LTEXT           "&Split to:",7301,8,8,288,8
+    COMBOBOX        100,8,20,260,64,CBS_DROPDOWN | CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "...",101,276,18,20,16,WS_GROUP
+    LTEXT           "Split to &volumes,  bytes:",7302,8,44,288,8
+    COMBOBOX        102,8,56,96,52,CBS_DROPDOWN | CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",1,160,88,64,16
+    PUSHBUTTON      "Cancel",2,232,88,64,16
+END
+
+2200 DIALOG 0, 0, 256, 268
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "System"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    LTEXT           "Associate 7-Zip with:",2201,8,8,240,8
+    PUSHBUTTON      "+",101,80,20,40,16
+    PUSHBUTTON      "+",102,166,20,40,16
+    CONTROL         "List1",100,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_SHAREIMAGELISTS | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,8,40,240,220
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    95, DIALOG
+    BEGIN
+    END
+
+    98, DIALOG
+    BEGIN
+    END
+
+    96, DIALOG
+    BEGIN
+    END
+
+    2101, DIALOG
+    BEGIN
+    END
+
+    7700, DIALOG
+    BEGIN
+    END
+
+    99, DIALOG
+    BEGIN
+    END
+
+    6602, DIALOG
+    BEGIN
+    END
+
+    3800, DIALOG
+    BEGIN
+    END
+
+    97, DIALOG
+    BEGIN
+    END
+
+    7300, DIALOG
+    BEGIN
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    801                     "Bookmark"
+END
+
+STRINGTABLE
+BEGIN
+    2100                    "Options"
+END
+
+STRINGTABLE
+BEGIN
+    3000                    "The system cannot allocate the required amount of memory"
+    3001                    "There are no errors"
+    3002                    "{0} object(s) selected"
+    3003                    "Cannot create folder '{0}'"
+    3004                    "Update operations are not supported for this archive."
+    3005                    "Can not open file '{0}' as archive"
+    3006                    "Can not open encrypted archive '{0}'. Wrong password?"
+    3007                    "Unsupported archive type"
+END
+
+STRINGTABLE
+BEGIN
+    3008                    "File {0} is already exist"
+    3009                    "File '{0}' was modified.\nDo you want to update it in the archive?"
+    3010                    "Can not update file\n'{0}'"
+    3011                    "Cannot start editor."
+    3012                    "The file looks like a virus (the file name contains long spaces in name)."
+    3013                    "The operation cannot be called from a folder that has a long path."
+    3014                    "You must select one file"
+    3015                    "You must select one or more files"
+    3016                    "Too many items"
+    3017                    "Can not open the file as {0} archive"
+    3018                    "The file is open as {0} archive"
+    3019                    "The archive is open with offset"
+END
+
+STRINGTABLE
+BEGIN
+    6000                    "Copy"
+    6001                    "Move"
+    6002                    "Copy to:"
+    6003                    "Move to:"
+    6004                    "Copying..."
+    6005                    "Moving..."
+    6006                    "Renaming..."
+    6008                    "Operation is not supported."
+    6009                    "Error Renaming File or Folder"
+    6010                    "Confirm File Copy"
+    6011                    "Are you sure you want to copy files to archive"
+END
+
+STRINGTABLE
+BEGIN
+    6100                    "Confirm File Delete"
+    6101                    "Confirm Folder Delete"
+    6102                    "Confirm Multiple File Delete"
+    6103                    "Are you sure you want to delete '{0}'?"
+    6104                    "Are you sure you want to delete the folder '{0}' and all its contents?"
+    6105                    "Are you sure you want to delete these {0} items?"
+    6106                    "Deleting..."
+    6107                    "Error Deleting File or Folder"
+    6108                    "The system cannot move a file with long path to the Recycle Bin"
+END
+
+STRINGTABLE
+BEGIN
+    6300                    "Create Folder"
+    6301                    "Create File"
+    6302                    "Folder name:"
+    6303                    "File Name:"
+END
+
+STRINGTABLE
+BEGIN
+    6304                    "New Folder"
+    6305                    "New File"
+    6306                    "Error Creating Folder"
+    6307                    "Error Creating File"
+END
+
+STRINGTABLE
+BEGIN
+    6400                    "Comment"
+    6401                    "&Comment:"
+    6402                    "Select"
+    6403                    "Deselect"
+    6404                    "Mask:"
+END
+
+STRINGTABLE
+BEGIN
+    6600                    "Properties"
+    6601                    "Folders History"
+END
+
+STRINGTABLE
+BEGIN
+    7100                    "Computer"
+    7101                    "Network"
+    7102                    "Documents"
+    7103                    "System"
+END
+
+STRINGTABLE
+BEGIN
+    7200                    "Add"
+    7201                    "Extract"
+    7202                    "Test"
+    7203                    "Copy"
+    7204                    "Move"
+    7205                    "Delete"
+    7206                    "Info"
+END
+
+STRINGTABLE
+BEGIN
+    7303                    "Splitting..."
+    7304                    "Confirm Splitting"
+    7305                    "Are you sure you want to split file into {0} volumes?"
+    7306                    "Volume size must be smaller than size of original file"
+    7307                    "Incorrect volume size"
+END
+
+STRINGTABLE
+BEGIN
+    7400                    "Combine Files"
+    7401                    "&Combine to:"
+    7402                    "Combining..."
+    7403                    "Select only first part of split file"
+    7404                    "Can not detect file as split file"
+    7405                    "Can not find more than one part of split file"
+END
+
+STRINGTABLE
+BEGIN
+    2406                    "Specify a location for temporary archive files."
+END
+
+STRINGTABLE
+BEGIN
+    1                       "English"
+    2                       "English"
+END
+
+STRINGTABLE
+BEGIN
+    3504                    "{0} bytes"
+END
+
+STRINGTABLE
+BEGIN
+    445                     "&Foreground"
+    447                     "Paused"
+END
+
+STRINGTABLE
+BEGIN
+    408                     "&Close"
+    411                     "&Continue"
+END
+
+STRINGTABLE
+BEGIN
+    448                     "Are you sure you want to cancel?"
+END
+
+STRINGTABLE
+BEGIN
+    1003                    "Path"
+    1004                    "Name"
+    1005                    "Extension"
+    1006                    "Folder"
+    1007                    "Size"
+END
+
+STRINGTABLE
+BEGIN
+    1008                    "Packed Size"
+    1009                    "Attributes"
+    1010                    "Created"
+    1011                    "Accessed"
+    1012                    "Modified"
+    1013                    "Solid"
+    1014                    "Commented"
+    1015                    "Encrypted"
+    1016                    "Split Before"
+    1017                    "Split After"
+    1018                    "Dictionary"
+    1019                    "CRC"
+    1020                    "Type"
+    1021                    "Anti"
+    1022                    "Method"
+    1023                    "Host OS"
+END
+
+STRINGTABLE
+BEGIN
+    1024                    "File System"
+    1025                    "User"
+    1026                    "Group"
+    1027                    "Block"
+    1028                    "Comment"
+    1029                    "Position"
+    1030                    "Path Prefix"
+    1031                    "Folders"
+    1032                    "Files"
+    1033                    "Version"
+    1034                    "Volume"
+    1035                    "Multivolume"
+    1036                    "Offset"
+    1037                    "Links"
+    1038                    "Blocks"
+    1039                    "Volumes"
+END
+
+STRINGTABLE
+BEGIN
+    1041                    "64-bit"
+    1042                    "Big-endian"
+    1043                    "CPU"
+    1044                    "Physical Size"
+    1045                    "Headers Size"
+    1046                    "Checksum"
+    1047                    "Characteristics"
+    1048                    "Virtual Address"
+    1049                    "ID"
+    1050                    "Short Name"
+    1051                    "Creator Application"
+    1052                    "Sector Size"
+    1053                    "Mode"
+    1054                    "Symbolic Link"
+    1055                    "Error"
+END
+
+STRINGTABLE
+BEGIN
+    1056                    "Total Size"
+    1057                    "Free Space"
+    1058                    "Cluster Size"
+    1059                    "Label"
+    1060                    "Local Name"
+    1061                    "Provider"
+    1062                    "NT Security"
+    1063                    "Alternate Stream"
+    1064                    "Aux"
+    1065                    "Deleted"
+    1066                    "Is Tree"
+    1067                    "SHA-1"
+    1068                    "SHA-256"
+    1069                    "Error Type"
+    1070                    "Errors"
+    1071                    "Errors"
+END
+
+STRINGTABLE
+BEGIN
+    1072                    "Warnings"
+    1073                    "Warning"
+    1074                    "Streams"
+    1075                    "Alternate Streams"
+    1076                    "Alternate Streams Size"
+    1077                    "Virtual Size"
+    1078                    "Unpack Size"
+    1079                    "Total Physical Size"
+    1080                    "Volume Index"
+    1081                    "SubType"
+    1082                    "Short Comment"
+    1083                    "Code Page"
+    1084                    "Is not archive type"
+    1085                    "Physical Size can't be detected"
+    1086                    "Zeros Tail Is Allowed"
+    1087                    "Tail Size"
+END
+
+STRINGTABLE
+BEGIN
+    1088                    "Embedded Stub Size"
+    1089                    "Link"
+    1090                    "Hard Link"
+    1091                    "iNode"
+    1092                    "Stream ID"
+    1093                    "Read-only"
+    1094                    "Out Name"
+    1095                    "Copy Link"
+END
+
+STRINGTABLE
+BEGIN
+    2202                    "All users"
+END
+
+STRINGTABLE
+BEGIN
+    3300                    "Extracting"
+    3302                    "Testing"
+    3303                    "Opening..."
+    3304                    "Scanning..."
+    3305                    "Removing"
+END
+
+STRINGTABLE
+BEGIN
+    3320                    "Adding"
+    3321                    "Updating"
+    3322                    "Analyzing"
+    3323                    "Replicating"
+    3324                    "Repacking"
+    3325                    "Skipping"
+    3326                    "Deleting"
+    3327                    "Header creating"
+END
+
+STRINGTABLE
+BEGIN
+    3402                    "Specify a location for extracted files."
+END
+
+STRINGTABLE
+BEGIN
+    3411                    "Full pathnames"
+    3412                    "No pathnames"
+    3413                    "Absolute pathnames"
+    3414                    "Relative pathnames"
+    3421                    "Ask before overwrite"
+    3422                    "Overwrite without prompt"
+    3423                    "Skip existing files"
+END
+
+STRINGTABLE
+BEGIN
+    3424                    "Auto rename"
+    3425                    "Auto rename existing files"
+END
+
+STRINGTABLE
+BEGIN
+    3700                    "Unsupported compression method for '{0}'."
+    3701                    "Data error in '{0}'. File is broken"
+    3702                    "CRC failed in '{0}'. File is broken."
+    3703                    "Data error in encrypted file '{0}'. Wrong password?"
+    3704                    "CRC failed in encrypted file '{0}'. Wrong password?"
+    3710                    "Wrong password?"
+END
+
+STRINGTABLE
+BEGIN
+    3721                    "Unsupported compression method"
+    3722                    "Data error"
+    3723                    "CRC failed"
+    3724                    "Unavailable data"
+    3725                    "Unexpected end of data"
+    3726                    "There are some data after the end of the payload data"
+    3727                    "Is not archive"
+END
+
+STRINGTABLE
+BEGIN
+    3728                    "Headers Error"
+    3729                    "Wrong password"
+END
+
+STRINGTABLE
+BEGIN
+    3763                    "Unavailable start of archive"
+    3764                    "Unconfirmed start of archive"
+    3768                    "Unsupported feature"
+END
+
+STRINGTABLE
+BEGIN
+    2320                    "<Folder>"
+    2321                    "<Archive>"
+    2322                    "Open archive"
+    2323                    "Extract files..."
+    2324                    "Add to archive..."
+    2325                    "Test archive"
+    2326                    "Extract Here"
+    2327                    "Extract to {0}"
+    2328                    "Add to {0}"
+    2329                    "Compress and email..."
+    2330                    "Compress to {0} and email"
+END
+
+STRINGTABLE
+BEGIN
+    7500                    "Checksum calculating..."
+    7501                    "Checksum information"
+    7502                    "CRC checksum for data:"
+    7503                    "CRC checksum for data and names:"
+END
+
+STRINGTABLE
+BEGIN
+    7504                    "CRC checksum for streams and names:"
+END
+
+#endif    // 英语(美国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
